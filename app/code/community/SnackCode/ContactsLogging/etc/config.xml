@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <SnackCode_ContactsLogging>
+            <version>0.1.0</version>
+        </SnackCode_ContactsLogging>
+    </modules>
+
+    <frontend>
+        <routers>
+            <contacts>
+                <args>
+                    <modules>
+                        <SnackCode_ContactsLogging before="Mage_Contacts">SnackCode_ContactsLogging</SnackCode_ContactsLogging>
+                    </modules>
+                </args>
+            </contacts>
+        </routers>
+    </frontend>
+</config>
